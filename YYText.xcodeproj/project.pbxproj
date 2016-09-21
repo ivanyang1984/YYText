@@ -56,6 +56,7 @@
 		3AF10DF41D9270D00009411D /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF10DC31D9270D00009411D /* YYText.h */; };
 		3AF10DF51D9270D00009411D /* YYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF10DC41D9270D00009411D /* YYTextView.h */; };
 		3AF10DF61D9270D00009411D /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF10DC51D9270D00009411D /* YYTextView.m */; };
+		3AF10E0D1D9273B70009411D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AF10E0C1D9273B70009411D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +110,7 @@
 		3AF10DC31D9270D00009411D /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
 		3AF10DC41D9270D00009411D /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
 		3AF10DC51D9270D00009411D /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		3AF10E0C1D9273B70009411D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		3AF10D911D9270D00009411D /* YYText */ = {
 			isa = PBXGroup;
 			children = (
+				3AF10E0C1D9273B70009411D /* Info.plist */,
 				3AF10D921D9270D00009411D /* Component */,
 				3AF10DA51D9270D00009411D /* String */,
 				3AF10DB01D9270D00009411D /* Utility */,
@@ -310,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF10E0D1D9273B70009411D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +459,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				New_Setting = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ffan.YYText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,6 +483,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				New_Setting = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ffan.YYText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
